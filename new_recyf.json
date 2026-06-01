@@ -1,0 +1,1191 @@
+{
+    "Objectif 1": {
+        "id": 1,
+        "titre": "Recensement des systèmes d'information",
+        "pilier": "Gouvernance",
+        "rappel": "Les entités réalisent et maintiennent à jour une liste de l'ensemble de leurs activités, services et systèmes d'information y contribuant. Elles justifient les systèmes non exposés aux risques (dégradation des activités, divulgation d'informations sensibles, altération des données).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "1.1-EI/EE": {
+                "Extrait ReCyF": "L'entité liste l'ensemble de ses activités et services, y compris les activités et services qui ne correspondent pas aux critères pour lesquels l'entité constitue une entité importante ou essentielle (par exemple : une entité essentielle au titre d'une activité exploitation d'un oléoduc doit lister, en plus des activités et services participant à l'exploitation de l'oléoduc, tous les services et les autres activités qu'elle fournit). Pour chaque entrée de cette liste, l'entité : o identifie un responsable de l'activité ou du service (par exemple le chef de service auquel est rattachée l'activité ou le service, un directeur métier, la direction générale) ; o liste les systèmes d'information les supportant.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Aucune liste",
+                    "Niveau 2 (Géré)": "Liste partielle, non validée",
+                    "Niveau 3 (Définis)": "Liste complète, validée annuellement, responsable identifié",
+                    "Niveau 4 (Maîtrisé)": "Liste automatisée (ex: CMDB), revue semestrielle, intégrée à la gouvernance",
+                    "Niveau 5 (Optimisé)": "Liste dynamique, synchronisée avec les outils métiers, RETEX intégrés"
+                }
+            },
+            "1.2-EI/EE": {
+                "Extrait ReCyF": "L'entité précise dans la liste prévue au 1.1-EI/EE les systèmes d'information qui ne sont exposés à aucun des risques mentionnés à l'alinéa 2 de l'objectif de sécurité. L'entité renseigne les justifications de ces choix.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Aucun SI exclu justifié",
+                    "Niveau 2 (Géré)": "Justifications informelles pour certains SI",
+                    "Niveau 3 (Définis)": "Justifications documentées pour tous les SI exclus",
+                    "Niveau 4 (Maîtrisé)": "Justifications revues par un tiers (audit), alignées avec l'analyse de risques",
+                    "Niveau 5 (Optimisé)": "Justifications automatisées (ex: outil de scoring), mises à jour en temps réel"
+                }
+            },
+            "1.3-EI/EE": {
+                "Extrait ReCyF": "L'entité valide et réexamine annuellement la liste prévue au 1.1-EI/EE, et en tant que de besoin, notamment en cas d'évolution des activités et services de l'entité ou en cas de mise en service d'un nouveau système d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Aucune révision",
+                    "Niveau 2 (Géré)": "Révision annuelle manuelle",
+                    "Niveau 3 (Définis)": "Révision annuelle formalisée, avec traces",
+                    "Niveau 4 (Maîtrisé)": "Révision trimestrielle, intégrée au cycle de vie des SI",
+                    "Niveau 5 (Optimisé)": "Révision continue, déclenchée par des événements (ex: nouveau SI)"
+                }
+            }
+        }
+    },
+    "Objectif 2": {
+        "id": 2,
+        "titre": "Mise en œuvre d’un cadre de gouvernance de la sécurité numérique",
+        "pilier": "Gouvernance",
+        "rappel": "Les entités définissent un cadre de gouvernance placé sous la responsabilité du dirigeant exécutif, incluant une organisation, des rôles, des processus de conformité, et une PSSI. Elles réalisent une analyse de conformité et un plan d’action pour corriger les écarts.",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "2.A.1-EI/EE": {
+                "Extrait ReCyF": "Le dirigeant exécutif de l’entité est responsable de la sécurité numérique au sein de son entité et en particulier du suivi de la conformité des systèmes d’information aux présentes mesures.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de responsable désigné",
+                    "Niveau 2 (Géré)": "Responsable désigné, mais sans mandats clairs",
+                    "Niveau 3 (Définis)": "Responsable avec rôle documenté (ex: charte), aligné avec la direction",
+                    "Niveau 4 (Maîtrisé)": "Responsable avec KPIs (ex: % de conformité), reporting régulier",
+                    "Niveau 5 (Optimisé)": "Responsable intégré dans un comité de gouvernance, avec pouvoir décisionnel"
+                }
+            },
+            "2.A.2-EE": {
+                "Extrait ReCyF": "Il désigne au moins une personne qui le conseille et l'accompagne dans l'exercice de cette responsabilité. Cette personne est le point de contact privilégié de l'Agence nationale de la sécurité des systèmes d'information pour tous les sujets relatifs à la sécurité numérique (notamment incidents de sécurité, communications de l'ANSSI sur les sujets relatifs aux entités essentielles).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de conseiller désigné",
+                    "Niveau 2 (Géré)": "Conseiller désigné, mais sans rôle formel",
+                    "Niveau 3 (Définis)": "Conseiller avec mission documentée (ex: charte)",
+                    "Niveau 4 (Maîtrisé)": "Conseiller avec reporting structuré à la direction",
+                    "Niveau 5 (Optimisé)": "Conseiller intégré dans la gouvernance, avec accès direct à l'ANSSI"
+                }
+            },
+            "2.A.3-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre une organisation adaptée pour assurer sa sécurité numérique (par exemple : la désignation d'un responsable de la sécurité numérique, l'établissement d'un RACI, la mise en place d'une comitologie).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'organisation définie",
+                    "Niveau 2 (Géré)": "Organisation informelle",
+                    "Niveau 3 (Définis)": "Organisation documentée (ex: RACI, comitologie)",
+                    "Niveau 4 (Maîtrisé)": "Organisation revue annuellement, alignée avec les risques",
+                    "Niveau 5 (Optimisé)": "Organisation dynamique, adaptée aux menaces émergentes"
+                }
+            },
+            "2.B.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre une politique de sécurité des systèmes d'information (PSSI).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de PSSI",
+                    "Niveau 2 (Géré)": "PSSI existante, mais non approuvée",
+                    "Niveau 3 (Définis)": "PSSI approuvée par la direction, alignée avec les risques",
+                    "Niveau 4 (Maîtrisé)": "PSSI revue annuellement, avec métriques de conformité",
+                    "Niveau 5 (Optimisé)": "PSSI dynamique, adaptée aux menaces émergentes (ex: veille ANSSI)"
+                }
+            },
+            "2.B.2-EI/EE": {
+                "Extrait ReCyF": "Cette PSSI comprend au moins : • L'organisation de la gouvernance de la sécurité numérique et notamment les rôles et les responsabilités du personnel interne et externe (par exemple : prestataires, fournisseurs) ; • Les orientations et objectifs stratégiques en matière de sécurité numérique déclinés de la stratégie globale de l'entité ; • L'engagement du dirigeant exécutif de l'entité à assurer la sécurité numérique des systèmes d'information dont il est responsable ; • L'engagement du dirigeant exécutif de l'entité à respecter les exigences légales et réglementaires et en particulier celles définies dans la transposition nationale de la directive NIS 2. • La PSSI tient également compte des exigences, procédures et spécificités propres au(x) secteur(s) dans lesquels l'entité exerce ses activités.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "PSSI incomplète",
+                    "Niveau 2 (Géré)": "PSSI couvre les éléments de base",
+                    "Niveau 3 (Définis)": "PSSI complète, alignée avec les exigences légales",
+                    "Niveau 4 (Maîtrisé)": "PSSI avec indicateurs de performance (KPIs)",
+                    "Niveau 5 (Optimisé)": "PSSI intégrée aux processus métiers, avec RETEX"
+                }
+            },
+            "2.B.3-EI/EE": {
+                "Extrait ReCyF": "Le dirigeant exécutif de l'entité approuve la PSSI.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'approbation",
+                    "Niveau 2 (Géré)": "Approbation informelle",
+                    "Niveau 3 (Définis)": "Approbation formelle (signature)",
+                    "Niveau 4 (Maîtrisé)": "Approbation avec revue annuelle",
+                    "Niveau 5 (Optimisé)": "Approbation automatique via workflow (ex: outil GRC)"
+                }
+            },
+            "2.B.4-EI/EE": {
+                "Extrait ReCyF": "La PSSI est au minimum revue annuellement et mise à jour lorsque nécessaire, notamment en cas d'évolutions majeures de la menace, du contexte métier, technique ou organisationnel intervenues après son approbation.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de revue",
+                    "Niveau 2 (Géré)": "Revue ponctuelle",
+                    "Niveau 3 (Définis)": "Revue annuelle documentée",
+                    "Niveau 4 (Maîtrisé)": "Revue semestrielle, avec traces",
+                    "Niveau 5 (Optimisé)": "Revue continue, déclenchée par des événements"
+                }
+            },
+            "2.B.5-EI/EE": {
+                "Extrait ReCyF": "L'entité décline, en tant que de besoin, la PSSI en politiques de sécurité relatives à des thèmes précis permettant de couvrir tout ou partie des présentes mesures. En particulier, l'entité définit et met en œuvre, au minimum, des politiques de sécurité en matière : • D'usage du chiffrement ; • De contrôle d'accès physique et logique ; • De revue de l'application des mesures de sécurité mises en œuvre ; • De gestion des comptes.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de politiques thématiques",
+                    "Niveau 2 (Géré)": "Politiques partielles",
+                    "Niveau 3 (Définis)": "Politiques documentées pour chaque thème",
+                    "Niveau 4 (Maîtrisé)": "Politiques revues annuellement, alignées avec la PSSI",
+                    "Niveau 5 (Optimisé)": "Politiques automatisées (ex: outils de gestion des accès)"
+                }
+            },
+            "2.C.1-EI/EE": {
+                "Extrait ReCyF": "Pour chaque système d'information, l'entité réalise et maintient à jour une analyse de la conformité du système d'information vis-à-vis des mesures du présent référentiel. L'analyse de la conformité identifie les éventuels écarts entre les mesures mises en œuvre par l'entité et les mesures prévues dans le présent référentiel. Cette analyse tient compte de la PSSI de l'entité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'analyse",
+                    "Niveau 2 (Géré)": "Analyse ponctuelle",
+                    "Niveau 3 (Définis)": "Analyse annuelle documentée, écarts identifiés",
+                    "Niveau 4 (Maîtrisé)": "Analyse automatisée (ex: outil GRC), plan d'action priorisé",
+                    "Niveau 5 (Optimisé)": "Analyse en temps réel, intégrée aux processus métiers"
+                }
+            },
+            "2.C.2-EI/EE": {
+                "Extrait ReCyF": "L'entité établit, met en œuvre et suit dans la durée un plan d'action adapté à la structure et à l'environnement dans lequel elle opère afin de corriger ces écarts dans les meilleurs délais. La responsabilité de ce plan d'action est déterminée au regard du cadre de gouvernance de la sécurité numérique mis en place. Ce plan d'action prévoit, au minimum, une échéance raisonnable au regard du besoin de sécurisation du système d'information et un responsable pour la réalisation de chaque action. Ce plan d'action ne préjuge pas de l'appréciation du respect de ses obligations légales et réglementaires lors d'un contrôle de l'ANSSI.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de plan",
+                    "Niveau 2 (Géré)": "Plan informel",
+                    "Niveau 3 (Définis)": "Plan documenté, avec échéances et responsables",
+                    "Niveau 4 (Maîtrisé)": "Plan suivi via tableaux de bord",
+                    "Niveau 5 (Optimisé)": "Plan automatisé (ex: intégration Jira/ServiceNow)"
+                }
+            },
+            "2.C.3-EI/EE": {
+                "Extrait ReCyF": "Lorsque l'entité n'est pas tenue de mettre en œuvre le référentiel mais qu'elle décide de l'appliquer pour démontrer sa conformité aux objectifs de sécurité, et qu'elle applique une ou plusieurs mesures alternatives aux moyens acceptables de conformité du référentiel, elle en précise les justifications dans son analyse de la conformité. L'ANSSI peut apprécier la pertinence de la mesure retenue pour satisfaire la mesure du référentiel non retenue lors d'un contrôle.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de justification",
+                    "Niveau 2 (Géré)": "Justifications informelles",
+                    "Niveau 3 (Définis)": "Justifications documentées",
+                    "Niveau 4 (Maîtrisé)": "Justifications revues par un tiers (audit)",
+                    "Niveau 5 (Optimisé)": "Justifications automatisées (ex: outil de conformité)"
+                }
+            }
+        }
+    },
+    "Objectif 3": {
+        "id": 3,
+        "titre": "Maîtrise de l’écosystème",
+        "pilier": "Gouvernance",
+        "rappel": "Les entités réalisent et maintiennent à jour une liste des prestataires et fournisseurs informatiques, ainsi que des processus pour s’assurer de leur conformité aux obligations de sécurité (notamment via des clauses contractuelles).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "3.A.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et maintient à jour une cartographie de l'écosystème dans lequel ses systèmes d'information sont mis en œuvre et contenant, au minimum, les informations suivantes : • La liste des prestataires et fournisseurs informatiques contribuant à la réalisation des activités ou des services de l'entité et avec lesquels il existe une relation de droit ou de fait (par exemple : prestataire d'infogérance, matériels et services fournis par la maison mère à une filiale, fournisseur de matériel informatique) • La liste des interconnexions avec les systèmes d'information de l'entité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de cartographie",
+                    "Niveau 2 (Géré)": "Cartographie partielle",
+                    "Niveau 3 (Définis)": "Cartographie complète, maintenue à jour",
+                    "Niveau 4 (Maîtrisé)": "Cartographie automatisée (ex: outil de gestion des tiers)",
+                    "Niveau 5 (Optimisé)": "Cartographie dynamique, synchronisée avec les contrats"
+                }
+            },
+            "3.A.2-EI/EE": {
+                "Extrait ReCyF": "L'entité renseigne et maintient à jour les coordonnées d'au moins un point de contact pour chaque entrée figurant dans la cartographie de l'écosystème.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de coordonnées",
+                    "Niveau 2 (Géré)": "Coordonnées partielles",
+                    "Niveau 3 (Définis)": "Coordonnées complètes, maintenues à jour",
+                    "Niveau 4 (Maîtrisé)": "Coordonnées vérifiées annuellement",
+                    "Niveau 5 (Optimisé)": "Coordonnées synchronisées avec les outils RH/achats"
+                }
+            },
+            "3.B.1-EI/EE": {
+                "Extrait ReCyF": "En cas de recours à un prestataire ou à un fournisseur informatique, l'entité s'assure que la prestation est conforme aux obligations auxquelles l'entité est assujettie, notamment en matière de gestion des risques qui menacent la sécurité de leurs réseaux et systèmes d'information et de notification des incidents importants et s'assure de disposer des assurances contractuelles de cette conformité (par exemple : plan d'assurance sécurité, charte de télémaintenance, mise en place d'indicateurs de suivi de la conformité).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de vérification",
+                    "Niveau 2 (Géré)": "Vérification ponctuelle",
+                    "Niveau 3 (Définis)": "Vérification documentée pour tous les prestataires",
+                    "Niveau 4 (Maîtrisé)": "Vérification annuelle, avec indicateurs de conformité",
+                    "Niveau 5 (Optimisé)": "Vérification continue, automatisée (ex: audits tiers)"
+                }
+            },
+            "3.B.2-EI/EE": {
+                "Extrait ReCyF": "L'entité vérifie périodiquement la conformité de la prestation aux obligations auxquelles l'entité est assujettie notamment en matière de gestion des risques qui menacent la sécurité de leurs réseaux et systèmes d'information et de notification des incidents importants. L'entité peut s'appuyer sur des audits dont les conditions sont précisées par les Moyens acceptables de conformité 17.2-EE, 17.4-EE et 17.5-EE relatifs à l'audit.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de vérification",
+                    "Niveau 2 (Géré)": "Vérification informelle",
+                    "Niveau 3 (Définis)": "Vérification annuelle documentée",
+                    "Niveau 4 (Maîtrisé)": "Vérification semestrielle, avec rapports",
+                    "Niveau 5 (Optimisé)": "Vérification continue, intégrée aux outils de monitoring"
+                }
+            }
+        }
+    },
+    "Objectif 4": {
+        "id": 4,
+        "titre": "Intégration de la sécurité numérique dans la gestion des ressources humaines",
+        "pilier": "Gouvernance",
+        "rappel": "Les entités définissent des procédures pour sensibiliser et former leurs utilisateurs (notamment les dirigeants) à la sécurité numérique, et intègrent la sécurité dans la gestion des ressources humaines (de l’arrivée au départ).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "4.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre une charte d'usage des systèmes d'information, et la rend opposable à chacun des utilisateurs de ces systèmes d'information. Cette charte peut prévoir des dispositions spécifiques pour les administrateurs. Cette charte peut également couvrir les systèmes d'information pour lesquels l'entité a décidé de ne pas appliquer les objectifs de sécurité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de charte",
+                    "Niveau 2 (Géré)": "Charte existante, mais non opposable",
+                    "Niveau 3 (Définis)": "Charte approuvée, communiquée à tous les utilisateurs",
+                    "Niveau 4 (Maîtrisé)": "Charte revue annuellement, avec signatures électroniques",
+                    "Niveau 5 (Optimisé)": "Charte dynamique, intégrée aux processus RH"
+                }
+            },
+            "4.2-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre un programme de sensibilisation à la sécurité numérique de l'ensemble des utilisateurs. Ce programme doit comporter des actions tout au long de la présence des utilisateurs dans l'entité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de programme",
+                    "Niveau 2 (Géré)": "Programme ponctuel (ex: 1 formation/an)",
+                    "Niveau 3 (Définis)": "Programme annuel structuré (ex: modules e-learning)",
+                    "Niveau 4 (Maîtrisé)": "Programme semestriel, avec évaluation des connaissances",
+                    "Niveau 5 (Optimisé)": "Programme continu, adapté aux menaces émergentes"
+                }
+            },
+            "4.3-EE": {
+                "Extrait ReCyF": "L'entité prévoit des clauses de sécurité dans ses contrats de travail (par exemple : clauses de confidentialité de nature à garantir la confidentialité des informations auxquelles les salariés ont accès au cours de leur contrat et à l'issu de celui-ci).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de clauses",
+                    "Niveau 2 (Géré)": "Clauses partielles",
+                    "Niveau 3 (Définis)": "Clauses standardisées pour tous les contrats",
+                    "Niveau 4 (Maîtrisé)": "Clauses revues annuellement, alignées avec les risques",
+                    "Niveau 5 (Optimisé)": "Clauses dynamiques, adaptées aux postes sensibles"
+                }
+            },
+            "4.4-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre un processus de gestion des arrivées, des départs et des changements de fonction des personnels et des tiers accédant aux systèmes d'information. Ce processus prévoit : • La prise de connaissance des règles de sécurité en vigueur lors de leur arrivée ; • L'attribution des accès appropriés lors de leur arrivée ; • La mise à jour des accès lors d'un changement de fonction ; • Lors du départ, la restitution de l'ensemble du matériel qui a été mis à disposition et la désactivation de l'ensemble des accès logiques aux systèmes d'information et physiques aux locaux et salles.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de processus",
+                    "Niveau 2 (Géré)": "Processus informel",
+                    "Niveau 3 (Définis)": "Processus documenté (ex: checklist)",
+                    "Niveau 4 (Maîtrisé)": "Processus automatisé (ex: workflow RH)",
+                    "Niveau 5 (Optimisé)": "Processus intégré aux outils IAM (Identity & Access Management)"
+                }
+            },
+            "4.5-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre, pour les fonctions assumant des responsabilités dans le domaine du numérique, un programme de formations dédiées à la sécurité numérique adapté à leurs responsabilités.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de formation",
+                    "Niveau 2 (Géré)": "Formation ponctuelle",
+                    "Niveau 3 (Définis)": "Formation annuelle documentée",
+                    "Niveau 4 (Maîtrisé)": "Formation semestrielle, avec certification",
+                    "Niveau 5 (Optimisé)": "Formation continue, adaptée aux évolutions technologiques"
+                }
+            }
+        }
+    },
+    "Objectif 5": {
+        "id": 5,
+        "titre": "Maîtrise des systèmes d’information",
+        "pilier": "Protection",
+        "rappel": "Les entités disposent d’une cartographie détaillée de leurs systèmes d’information pour faciliter leur maintien en condition opérationnelle et de sécurité, et améliorer leur réactivité en cas d’incident. Elles mettent en place un processus de maintien en condition opérationnelle et de sécurité (correctifs, veille sur les vulnérabilités).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "5.A.1-EI/EE": {
+                "Extrait ReCyF": "L'entité élaboré et maintient à jour au moins une cartographie de ses systèmes d'information dont le niveau de détail est suffisant pour lui permettre : o d'assurer le maintien en condition opérationnelle et de sécurité de ces systèmes (par exemple : être capable d'identifier les ressources matérielles ou logicielles vulnérables suite à la publication d'un bulletin d'alerte) ; o de pouvoir réagir sans retard injustifié à un incident de sécurité affectant ces systèmes d'information (par exemple : être capable d'identifier les ressources matérielles ou logicielles affectées par un incident de sécurité et ainsi limiter les conséquences de l'incident). Cette cartographie peut s'appuyer sur les recommandations de l'autorité nationale de sécurité des systèmes d'information en matière de cartographie.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de cartographie",
+                    "Niveau 2 (Géré)": "Cartographie partielle",
+                    "Niveau 3 (Définis)": "Cartographie complète, maintenue à jour",
+                    "Niveau 4 (Maîtrisé)": "Cartographie automatisée (ex: CMDB)",
+                    "Niveau 5 (Optimisé)": "Cartographie dynamique, synchronisée avec les outils de monitoring"
+                }
+            },
+            "5.B.1-EE": {
+                "Extrait ReCyF": "L'entité élaboré, met en œuvre et maintient à jour une procédure de maintien en conditions opérationnelle et de sécurité des ressources matérielles et logicielles de ses systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de procédure",
+                    "Niveau 2 (Géré)": "Procédure informelle",
+                    "Niveau 3 (Définis)": "Procédure documentée",
+                    "Niveau 4 (Maîtrisé)": "Procédure revue annuellement, alignée avec les risques",
+                    "Niveau 5 (Optimisé)": "Procédure automatisée (ex: outils de patch management)"
+                }
+            },
+            "5.B.2-EI/EE": {
+                "Extrait ReCyF": "L'entité maintient à jour les bases de connaissances des outils de protection contre les codes malveillants qu'elle utilise (par exemple : la mise à jour de la base antivirale de l'antivirus, la mise à jour des signatures utilisées par la solution d'EDR).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mise à jour",
+                    "Niveau 2 (Géré)": "Mise à jour manuelle",
+                    "Niveau 3 (Définis)": "Mise à jour automatique",
+                    "Niveau 4 (Maîtrisé)": "Mise à jour avec vérification des signatures",
+                    "Niveau 5 (Optimisé)": "Mise à jour continue, intégrée aux outils SIEM"
+                }
+            },
+            "5.B.3-EI/EE": {
+                "Extrait ReCyF": "L'entité met en œuvre une veille sur les vulnérabilités, les correctifs de sécurité et les mesures d'atténuation préconisées susceptibles de concerner les ressources de ses systèmes d'information, qui sont diffusées notamment par les fournisseurs ou les fabricants de ces ressources, par un prestataire mandaté ou par des centres de prévention et d'alerte en matière de cyber sécurité tels que le CERT-FR (centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques) ou les CSIRT (centres de réponse aux incidents de sécurité informatique).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de veille",
+                    "Niveau 2 (Géré)": "Veille informelle",
+                    "Niveau 3 (Définis)": "Veille documentée (ex: abonnements CERT-FR)",
+                    "Niveau 4 (Maîtrisé)": "Veille automatisée (ex: outils de vulnerability management)",
+                    "Niveau 5 (Optimisé)": "Veille intégrée aux processus de MCO"
+                }
+            },
+            "5.B.4-EI/EE": {
+                "Extrait ReCyF": "L'entité met en œuvre, au regard de la nature de la vulnérabilité : • sans délai : les actions visant à l'installation des correctifs de sécurité (par exemple : le déploiement en environnement de test, pré-production et production, mécanismes de rollback) ; • sans retard injustifié : l'application effective des correctifs de sécurité après la réalisation des actions précédentes sur les ressources exposées à des systèmes d'information tiers (par exemple : un serveur Web, un pare-feu exposé sur Internet, un serveur de messagerie) et les postes de travail des utilisateurs.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de correctifs appliqués",
+                    "Niveau 2 (Géré)": "Correctifs appliqués ponctuellement",
+                    "Niveau 3 (Définis)": "Correctifs appliqués selon un calendrier",
+                    "Niveau 4 (Maîtrisé)": "Correctifs appliqués sous 72h pour les critiques",
+                    "Niveau 5 (Optimisé)": "Correctifs appliqués en temps réel (automatisation)"
+                }
+            },
+            "5.B.5-EE": {
+                "Extrait ReCyF": "L'entité planifie et installe sur l'ensemble de ses ressources, y compris celles non exposées à des systèmes d'information tiers, les correctifs de sécurité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de planification",
+                    "Niveau 2 (Géré)": "Planification partielle",
+                    "Niveau 3 (Définis)": "Planification complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Planification automatisée (ex: outils de patch management)",
+                    "Niveau 5 (Optimisé)": "Planification dynamique, adaptée aux risques"
+                }
+            },
+            "5.B.6-EI/EE": {
+                "Extrait ReCyF": "Lorsque des raisons techniques ou opérationnelles ne permettent pas l'installation des correctifs de sécurité sur les ressources concernées, l'entité met en œuvre des mesures d'atténuation pour réduire les risques liés à l'utilisation d'une version comportant des vulnérabilités connues (par exemple : isoler la ressource du reste du SI, mettre en place un contrôle d'accès renforcé).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées (ex: isolation réseau)"
+                }
+            },
+            "5.B.7-EI/EE": {
+                "Extrait ReCyF": "L'entité met en œuvre sans délai les actions visant à l'installation et le maintien à jour des ressources logicielles de ses systèmes d'information, y compris les logiciels embarqués, dans des versions bénéficiant d'un support par leurs fournisseurs ou leurs fabricants et comportant les mises à jour de sécurité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de maintien",
+                    "Niveau 2 (Géré)": "Maintien ponctuel",
+                    "Niveau 3 (Définis)": "Maintien documenté",
+                    "Niveau 4 (Maîtrisé)": "Maintien automatisé (ex: outils de gestion des licences)",
+                    "Niveau 5 (Optimisé)": "Maintien continu, intégrée aux processus achats"
+                }
+            },
+            "5.B.8-EI/EE": {
+                "Extrait ReCyF": "L'entité vérifie que toute nouvelle version d'un logiciel est téléchargée depuis les ressources officielles mises à disposition par les éditeurs ou les fournisseurs.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de vérification",
+                    "Niveau 2 (Géré)": "Vérification manuelle",
+                    "Niveau 3 (Définis)": "Vérification documentée",
+                    "Niveau 4 (Maîtrisé)": "Vérification automatisée (ex: outils de signature)",
+                    "Niveau 5 (Optimisé)": "Vérification intégrée aux outils de déploiement"
+                }
+            },
+            "5.B.9-EI/EE": {
+                "Extrait ReCyF": "Lorsque des raisons techniques ou opérationnelles ne permettent pas l'installation d'une version supportée par le fournisseur ou l'éditeur, l'entité met en œuvre des mesures pour réduire les risques liés à l'utilisation d'une version obsolète.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées (ex: isolation des systèmes)"
+                }
+            }
+        }
+    },
+    "Objectif 6": {
+        "id": 6,
+        "titre": "Maîtrise des accès physiques aux locaux",
+        "pilier": "Protection",
+        "rappel": "Les entités mettent en place des mécanismes de contrôle d’accès et de gestion des droits pour s’assurer que seules les personnes autorisées accèdent à leurs locaux (notamment les locaux techniques ou contenant des serveurs).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "6.1-EI/EE": {
+                "Extrait ReCyF": "L'entité met en place des mesures de sécurité permettant de limiter l'accès de personnes non autorisées à ses locaux, ses salles serveurs et ses locaux techniques (par exemple : tenue d'un registre des visiteurs, badges d'accès, etc).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures partielles (ex: badges)",
+                    "Niveau 3 (Définis)": "Mesures complètes (badges + registre visiteurs)",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées (ex: contrôle d'accès biométrique)"
+                }
+            },
+            "6.2-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la protection physique des locaux, salles serveurs et locaux techniques (par exemple : vidéosurveillance, gardiennage, alarme). Cette protection physique permet de prévenir, de surveiller et de réagir aux accès non autorisés à ces locaux.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de protection",
+                    "Niveau 2 (Géré)": "Protection partielle",
+                    "Niveau 3 (Définis)": "Protection complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Protection revues annuellement",
+                    "Niveau 5 (Optimisé)": "Protection intégrée aux outils de monitoring"
+                }
+            },
+            "6.3-EE": {
+                "Extrait ReCyF": "L'entité s'assure que les droits d'accès physique sont attribués au regard du besoin strictement nécessaire à l'exécution des missions des personnes.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de gestion des droits",
+                    "Niveau 2 (Géré)": "Gestion informelle",
+                    "Niveau 3 (Définis)": "Gestion documentée (ex: matrice d'accès)",
+                    "Niveau 4 (Maîtrisé)": "Gestion automatisée (ex: outils IAM physiques)",
+                    "Niveau 5 (Optimisé)": "Gestion dynamique, adaptée aux changements"
+                }
+            },
+            "6.4-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure que les personnes externes accédant aux locaux techniques et salles serveurs de l'entité sont accompagnées ou dûment autorisées.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de contrôle",
+                    "Niveau 2 (Géré)": "Contrôle informel",
+                    "Niveau 3 (Définis)": "Contrôle documenté (ex: registre des visiteurs)",
+                    "Niveau 4 (Maîtrisé)": "Contrôle automatisé (ex: badges temporaires)",
+                    "Niveau 5 (Optimisé)": "Contrôle intégré aux processus de sécurité"
+                }
+            }
+        }
+    },
+    "Objectif 7": {
+        "id": 7,
+        "titre": "Sécurisation de l’architecture des systèmes d’information",
+        "pilier": "Protection",
+        "rappel": "Les entités identifient les besoins d’exposition des services et interfaces de leurs systèmes d’information, filtrent les communications entrantes/sortantes, et cloisonnent leurs systèmes en zones de sécurité (pour les EE).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "7.A.1-EI/EE": {
+                "Extrait ReCyF": "L'entité cloisonne physiquement et/ou logiquement l'ensemble de ses systèmes d'information vis-à-vis des autres systèmes d'information, y compris des systèmes d'information pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité et les systèmes d'information tiers (par exemple : cloisonnement logique par VLAN – réseau local virtuel – (réseau), par VM – machine virtuelle – (calcul) ou par volume (stockage)).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de cloisonnement",
+                    "Niveau 2 (Géré)": "Cloisonnement partiel",
+                    "Niveau 3 (Définis)": "Cloisonnement complet, documenté",
+                    "Niveau 4 (Maîtrisé)": "Cloisonnement revu annuellement",
+                    "Niveau 5 (Optimisé)": "Cloisonnement dynamique (ex: micro-segmentation)"
+                }
+            },
+            "7.A.2-EE": {
+                "Extrait ReCyF": "L'entité cloisonne physiquement et/ou logiquement chaque système d'information vis-à-vis des autres systèmes d'information, y compris des systèmes d'information pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité et des systèmes d'information tiers (par exemple : un système d'information est cloisonné logiquement des autres systèmes d'information de l'entité. Il est aussi cloisonné physiquement des systèmes d'information de l'entité pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de cloisonnement par SI",
+                    "Niveau 2 (Géré)": "Cloisonnement partiel",
+                    "Niveau 3 (Définis)": "Cloisonnement complet pour chaque SI",
+                    "Niveau 4 (Maîtrisé)": "Cloisonnement revu semestriellement",
+                    "Niveau 5 (Optimisé)": "Cloisonnement automatisé (ex: SDN)"
+                }
+            },
+            "7.A.3-EE": {
+                "Extrait ReCyF": "L'entité mène des réflexions, pour chaque système d'information, sur la pertinence de définir des sous-systèmes. Lorsqu'elle n'identifie aucun sous-système, l'entité en apporte la justification. Un sous-système regroupe des ressources assurant des fonctionnalités similaires et ayant des niveaux de sensibilité, d'exposition et de sécurité homogènes.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de réflexion",
+                    "Niveau 2 (Géré)": "Réflexion informelle",
+                    "Niveau 3 (Définis)": "Réflexion documentée",
+                    "Niveau 4 (Maîtrisé)": "Réflexion revues annuellement",
+                    "Niveau 5 (Optimisé)": "Réflexion intégrée aux processus de conception"
+                }
+            },
+            "7.A.4-EE": {
+                "Extrait ReCyF": "Les sous-systèmes identifiés à la mesure 7.A.3-EE sont cloisonnés entre eux physiquement et/ou logiquement.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de cloisonnement",
+                    "Niveau 2 (Géré)": "Cloisonnement partiel",
+                    "Niveau 3 (Définis)": "Cloisonnement complet",
+                    "Niveau 4 (Maîtrisé)": "Cloisonnement revu annuellement",
+                    "Niveau 5 (Optimisé)": "Cloisonnement dynamique"
+                }
+            },
+            "7.A.5-EE": {
+                "Extrait ReCyF": "L'entité met en œuvre au moins un sous-système passerelle sortante permettant : • aux ressources de ses systèmes d'information d'accéder aux systèmes d'informations tiers ; • d'authentifier, de filtrer et de tracer les accès aux systèmes d'information tiers (par exemple : un serveur mandataire).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de passerelle",
+                    "Niveau 2 (Géré)": "Passerelle informelle",
+                    "Niveau 3 (Définis)": "Passerelle documentée",
+                    "Niveau 4 (Maîtrisé)": "Passerelle sécurisée (authentification, filtrage, traçabilité)",
+                    "Niveau 5 (Optimisé)": "Passerelle automatisée (ex: proxy inversé)"
+                }
+            },
+            "7.A.6-EE": {
+                "Extrait ReCyF": "L'entité met en œuvre au moins un sous-système passerelle entrante permettant : • d'exposer des ressources de ses systèmes d'information aux systèmes d'information tiers ; • de filtrer et de tracer les accès depuis des systèmes d'information tiers (par exemple : un serveur mandataire inverse ou un relai).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de passerelle",
+                    "Niveau 2 (Géré)": "Passerelle informelle",
+                    "Niveau 3 (Définis)": "Passerelle documentée",
+                    "Niveau 4 (Maîtrisé)": "Passerelle sécurisée (filtrage, traçabilité)",
+                    "Niveau 5 (Optimisé)": "Passerelle automatisée"
+                }
+            },
+            "7.A.7-EI/EE": {
+                "Extrait ReCyF": "Seules les interconnexions nécessaires à la réalisation des activités et services de l'entité ou au maintien en condition opérationnelle ou de sécurité sont mises en œuvre entre l'ensemble des systèmes d'information et, d'une part les systèmes d'information tiers et, d'autre part les autres systèmes d'information sous la responsabilité de l'entité pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de limitation",
+                    "Niveau 2 (Géré)": "Limitation informelle",
+                    "Niveau 3 (Définis)": "Limitation documentée",
+                    "Niveau 4 (Maîtrisé)": "Limitation revues annuellement",
+                    "Niveau 5 (Optimisé)": "Limitation dynamique (ex: automatisation des règles)"
+                }
+            },
+            "7.B.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et documente les communications nécessaires : • à la réalisation de ses activités et services ; • au maintien en condition opérationnelle de sécurité circulant entre les systèmes d'information et, d'une part les systèmes d'information tiers et, d'autre part les autres systèmes d'information pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de documentation",
+                    "Niveau 2 (Géré)": "Documentation partielle",
+                    "Niveau 3 (Définis)": "Documentation complète",
+                    "Niveau 4 (Maîtrisé)": "Documentation revues annuellement",
+                    "Niveau 5 (Optimisé)": "Documentation automatisée (ex: outils de cartographie)"
+                }
+            },
+            "7.B.3-EI/EE": {
+                "Extrait ReCyF": "L'entité met en œuvre, au niveau des interconnexions, les règles de filtrage pour n'autoriser que les communications identifiées à la mesure 7.B.1-EI/EE ou 7.B.2-EE. Les autres communications sont bloquées par défaut.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de filtrage",
+                    "Niveau 2 (Géré)": "Filtrage partiel",
+                    "Niveau 3 (Définis)": "Filtrage complet, documenté",
+                    "Niveau 4 (Maîtrisé)": "Filtrage revu annuellement",
+                    "Niveau 5 (Optimisé)": "Filtrage dynamique (ex: firewalls nouvelle génération)"
+                }
+            },
+            "7.B.4-EI/EE": {
+                "Extrait ReCyF": "L'entité filtre par un ou plusieurs pares-feux dédiés à cet usage, au minimum : • les communications entre les systèmes d'information de l'entité pour lesquels elle a décidé d'appliquer les objectifs ou non, d'une part ; et • les SI tiers d'autre part. Par exemple : une entité mettant en œuvre un pare-feu pour filtrer les communications entre ses systèmes d'information (pour lesquels elle applique les objectifs de sécurité ou non) d'une part et les systèmes d'information tiers d'autre part est une solution acceptable.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de pare-feu dédié",
+                    "Niveau 2 (Géré)": "Pare-feu partagé",
+                    "Niveau 3 (Définis)": "Pare-feu dédié documenté",
+                    "Niveau 4 (Maîtrisé)": "Pare-feu revu annuellement",
+                    "Niveau 5 (Optimisé)": "Pare-feu automatisé (ex: orchestration)"
+                }
+            },
+            "7.A.8-EE": {
+                "Extrait ReCyF": "Seules les interconnexions nécessaires à la réalisation des activités et services de l'entité ou au maintien en condition opérationnelle ou de sécurité sont mises en œuvre entre chaque système d'information et, d'une part les systèmes d'information tiers et, d'autre part les autres systèmes d'information sous la responsabilité de l'entité pour lesquels elle a décidé de ne pas appliquer les objectifs de sécurité, ou entre les sous-systèmes du système d'information."
+            },
+            "7.B.2-EE": {
+                "Extrait ReCyF": "L'entité définit et documente les communications nécessaires au maintien en condition opérationnelle de sécurité circulant entre les sous-systèmes du système d'information."
+            },
+            "7.B.5-EI/EE": {
+                "Extrait ReCyF": "L'entité effectue annuellement une revue de la mise en œuvre technique des règles de filtrage mentionnées à la mesure 7.B.4-EI/EE.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de revue",
+                    "Niveau 2 (Géré)": "Revue informelle",
+                    "Niveau 3 (Définis)": "Revue documentée",
+                    "Niveau 4 (Maîtrisé)": "Revue automatisée (ex: outils d'audit)",
+                    "Niveau 5 (Optimisé)": "Revue continue, intégrée aux outils SIEM"
+                }
+            }
+        }
+    },
+    "Objectif 8": {
+        "id": 8,
+        "titre": "Sécurisation des accès distants aux systèmes d’information",
+        "pilier": "Protection",
+        "rappel": "Les entités mettent en place des mécanismes d’identification, d’authentification et de sécurisation des accès distants (chiffrement, protection des points d’entrée/sortie).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "8.1-EI/EE": {
+                "Extrait ReCyF": "L'entité protège les accès à ses systèmes d'information effectués à travers un système d'information tiers au moyen de mécanismes de chiffrement conformes aux recommandations de l'autorité nationale de sécurité des systèmes d'information (par exemple : VPN TLS ou IPSec, protocoles applicatifs chiffrés comme TLS, SSH, etc.).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de chiffrement",
+                    "Niveau 2 (Géré)": "Chiffrement partiel",
+                    "Niveau 3 (Définis)": "Chiffrement complet (ex: VPN IPSec)",
+                    "Niveau 4 (Maîtrisé)": "Chiffrement revu annuellement",
+                    "Niveau 5 (Optimisé)": "Chiffrement dynamique (ex: TLS 1.3)"
+                }
+            },
+            "8.2-EI/EE": {
+                "Extrait ReCyF": "Lorsque les accès visés à la mesure 8.1-EI/EE sont effectués par les personnels et prestataires qu'elle a autorisé, l'entité protège les accès aux systèmes d'information par un mécanisme d'authentification conforme aux mesures relatives à l'Authentification.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'authentification",
+                    "Niveau 2 (Géré)": "Authentification mono-facteur",
+                    "Niveau 3 (Définis)": "Authentification multi-facteur (MFA)",
+                    "Niveau 4 (Maîtrisé)": "MFA revu annuellement",
+                    "Niveau 5 (Optimisé)": "MFA dynamique (ex: adaptatif)"
+                }
+            },
+            "8.3-EE": {
+                "Extrait ReCyF": "Pour les accès visés à la mesure 8.2-EI/EE, le mécanisme d'authentification est multifacteur et repose sur au moins un facteur de connaissance (par exemple : authentification avec une carte à puce et un code PIN).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de MFA",
+                    "Niveau 2 (Géré)": "MFA partiel",
+                    "Niveau 3 (Définis)": "MFA complet",
+                    "Niveau 4 (Maîtrisé)": "MFA revu semestriellement",
+                    "Niveau 5 (Optimisé)": "MFA automatisé (ex: intégration SSO)"
+                }
+            },
+            "8.4-EE": {
+                "Extrait ReCyF": "Lorsque des raisons techniques ou opérationnelles ne permettent pas la mise en œuvre d'une authentification multifacteur, l'entité met en œuvre des mesures permettant de réduire le risque associé.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées"
+                }
+            },
+            "8.5-EE": {
+                "Extrait ReCyF": "Les mémoires de masse (par exemple : les « disques ») des postes de travail et équipements mobiles permettant aux personnels et prestataires de l'entité d'accéder à distance aux systèmes d'information depuis un lieu qui n'est pas maîtrisé par l'entité, sont en permanence protégées par des mécanismes de chiffrement et d'authentification conformes à l'état de l'art tel que recommandé par l'autorité nationale de sécurité des systèmes d'information (par exemple : disques chiffrés avec code PIN exigé pour le déchiffrement au démarrage).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de chiffrement",
+                    "Niveau 2 (Géré)": "Chiffrement partiel",
+                    "Niveau 3 (Définis)": "Chiffrement complet (ex: BitLocker)",
+                    "Niveau 4 (Maîtrisé)": "Chiffrement revu annuellement",
+                    "Niveau 5 (Optimisé)": "Chiffrement dynamique (ex: gestion centralisée)"
+                }
+            }
+        }
+    },
+    "Objectif 9": {
+        "id": 9,
+        "titre": "Protection des systèmes d’information contre les codes malveillants",
+        "pilier": "Protection",
+        "rappel": "Les entités mettent en œuvre des mécanismes de protection contre les codes malveillants sur leurs ressources. Les EE s’assurent que seules les ressources matérielles gérées par l’entité ou ses prestataires mandatés se connectent aux systèmes d’information.",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "9.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit les ressources matérielles, en particulier les terminaux, autorisées à se connecter à ses systèmes d'information. NB : Cette mesure autorise le AVEC (Apportez votre équipement de communication) ou BYOD en anglais.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de définition",
+                    "Niveau 2 (Géré)": "Définition partielle",
+                    "Niveau 3 (Définis)": "Définition complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Définition revues annuellement",
+                    "Niveau 5 (Optimisé)": "Définition dynamique (ex: liste blanche)"
+                }
+            },
+            "9.2-EE": {
+                "Extrait ReCyF": "Seules les ressources matérielles dont l'entité, ou le prestataire qu'elle a mandaté à cet effet, assure la gestion et qui participent à la réalisation des activités ou des services de l'entité ou au maintien en condition opérationnelle et de sécurité se connectent aux systèmes d'information. NB : Cette mesure interdit le AVEC (Apportez votre équipement de communication) ou BYOD en anglais.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de restriction",
+                    "Niveau 2 (Géré)": "Restriction partielle",
+                    "Niveau 3 (Définis)": "Restriction complète",
+                    "Niveau 4 (Maîtrisé)": "Restriction revues annuellement",
+                    "Niveau 5 (Optimisé)": "Restriction automatisée (ex: NAC)"
+                }
+            },
+            "9.3-EI/EE": {
+                "Extrait ReCyF": "L'entité met en œuvre des mesures organisationnelles ou techniques visant à empêcher la connexion des ressources matérielles autres que celles identifiées à la mesure 9.1-EI/EE sur ses systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées (ex: isolation réseau)"
+                }
+            },
+            "9.4-EE": {
+                "Extrait ReCyF": "L'entité met en œuvre des mesures organisationnelles ou techniques visant à empêcher la connexion des ressources matérielles autres que celles identifiées à la mesure 9.2-EE sur ses systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées"
+                }
+            },
+            "9.5-EI/EE": {
+                "Extrait ReCyF": "Seuls les supports amovibles réinscriptibles nécessaires à la réalisation des activités et services de l'entité ou au maintien en condition opérationnelle ou de sécurité se connectent à ses systèmes d'information (par exemple : clefs USB ou disques dur amovibles).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de restriction",
+                    "Niveau 2 (Géré)": "Restriction partielle",
+                    "Niveau 3 (Définis)": "Restriction complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Restriction revues annuellement",
+                    "Niveau 5 (Optimisé)": "Restriction automatisée (ex: DLP)"
+                }
+            },
+            "9.6-EI/EE": {
+                "Extrait ReCyF": "Les postes de travail, les serveurs et les équipements mobiles maîtrisés par l'entité, qui sont amenés à traiter de données provenant de sources externes (par exemple les supports amovibles, la messagerie ou la navigation web), à l'exception de données de mise à jour fournies par les éditeurs et dont l'authenticité et l'intégrité sont vérifiées, disposent de mécanismes de protection contre les risques d'exécution de codes malveillants (par exemple : un antivirus ou un EDR).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de protection",
+                    "Niveau 2 (Géré)": "Protection partielle (ex: antivirus)",
+                    "Niveau 3 (Définis)": "Protection complète (ex: antivirus + EDR)",
+                    "Niveau 4 (Maîtrisé)": "Protection revues annuellement",
+                    "Niveau 5 (Optimisé)": "Protection dynamique (ex: intégration SIEM)"
+                }
+            },
+            "9.7-EI/EE": {
+                "Extrait ReCyF": "L'entité procède à l'analyse des données provenant de sources externes lors de leur réception, pour y rechercher des codes malveillants, à l'exception de données de mise à jour fournies par les éditeurs et dont l'authenticité et l'intégrité sont vérifiées (par exemple : une passerelle mail analysant les pièces jointes avant distribution, un SAS de décontamination antivirale pour les clefs USB).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'analyse",
+                    "Niveau 2 (Géré)": "Analyse manuelle",
+                    "Niveau 3 (Définis)": "Analyse automatisée (ex: sandbox)",
+                    "Niveau 4 (Maîtrisé)": "Analyse revues annuellement",
+                    "Niveau 5 (Optimisé)": "Analyse continue, intégrée aux outils de messagerie"
+                }
+            }
+        }
+    },
+    "Objectif 11": {
+        "id": 11,
+        "titre": "Maîtrise de l’administration des systèmes d’information",
+        "pilier": "Protection",
+        "rappel": "Les entités disposent de comptes d’administration dédiés et utilisés uniquement par des personnes autorisées. Les EE sécurisent l’administration de leurs annuaires (cœur de confiance) en suivant les recommandations de l’ANSSI.",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "11.A.1-EI/EE": {
+                "Extrait ReCyF": "Les actions d'administration sont effectuées exclusivement à partir de comptes d'administration et les comptes d'administration sont utilisés exclusivement pour les actions d'administration. Par exemple : le compte d'administration d'un poste utilisateur est utilisé exclusivement pour l'administration de ce poste. L'utilisateur de ce poste dispose d'un compte bureautique non administrateur pour son utilisation quotidienne.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de comptes dédiés",
+                    "Niveau 2 (Géré)": "Comptes partagés",
+                    "Niveau 3 (Définis)": "Comptes dédiés pour tous les administrateurs",
+                    "Niveau 4 (Maîtrisé)": "Comptes revus annuellement",
+                    "Niveau 5 (Optimisé)": "Comptes dynamiques (ex: PAM)"
+                }
+            },
+            "11.A.2-EI/EE": {
+                "Extrait ReCyF": "Les comptes d'administration ne sont utilisés que par des administrateurs ou des personnes autorisées.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de contrôle",
+                    "Niveau 2 (Géré)": "Contrôle informel",
+                    "Niveau 3 (Définis)": "Contrôle documenté",
+                    "Niveau 4 (Maîtrisé)": "Contrôle automatisé (ex: logs d'accès)",
+                    "Niveau 5 (Optimisé)": "Contrôle continu, intégrée aux outils SIEM"
+                }
+            },
+            "11.A.3-EI/EE": {
+                "Extrait ReCyF": "Les comptes d'administration respectent les mesures relatives à la gestion des identités et des accès des utilisateurs aux systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de respect",
+                    "Niveau 2 (Géré)": "Respect partiel",
+                    "Niveau 3 (Définis)": "Respect complet",
+                    "Niveau 4 (Maîtrisé)": "Respect revu annuellement",
+                    "Niveau 5 (Optimisé)": "Respect continu, intégrée aux outils IAM"
+                }
+            },
+            "11.A.4-EE": {
+                "Extrait ReCyF": "Un compte d'administration est utilisé exclusivement pour se connecter aux ressources que ce compte administre pour effectuer des actions d'administration, ou à une ressource d'administration (par exemple : le compte administrateur d'un routeur est utilisé depuis un poste d'administration ou sur le routeur pour l'administrer).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de restriction",
+                    "Niveau 2 (Géré)": "Restriction partielle",
+                    "Niveau 3 (Définis)": "Restriction complète",
+                    "Niveau 4 (Maîtrisé)": "Restriction revues annuellement",
+                    "Niveau 5 (Optimisé)": "Restriction dynamique (ex: JIT access)"
+                }
+            },
+            "11.A.5-EI/EE": {
+                "Extrait ReCyF": "Lorsque des raisons techniques ou opérationnelles ne permettent pas d'effectuer des actions d'administration à partir d'un compte d'administration, l'entité met en œuvre des mesures permettant d'assurer le contrôle de ces actions d'administration et des mesures de réduction du risque lié à l'utilisation d'un compte non dédié à l'administration.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures informelles",
+                    "Niveau 3 (Définis)": "Mesures documentées",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures automatisées"
+                }
+            },
+            "11.A.6-EE": {
+                "Extrait ReCyF": "L'entité établit et tient à jour la liste des comptes d'administration de ses systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de liste",
+                    "Niveau 2 (Géré)": "Liste partielle",
+                    "Niveau 3 (Définis)": "Liste complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Liste revues annuellement",
+                    "Niveau 5 (Optimisé)": "Liste dynamique, synchronisée avec les outils PAM"
+                }
+            },
+            "11.B.1-EI/EE": {
+                "Extrait ReCyF": "L'entité applique sans retard injustifié les correctifs de sécurité sur les annuaires gérant les utilisateurs ou les ressources de ses systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de correctifs",
+                    "Niveau 2 (Géré)": "Correctifs ponctuels",
+                    "Niveau 3 (Définis)": "Correctifs appliqués selon un calendrier",
+                    "Niveau 4 (Maîtrisé)": "Correctifs appliqués sous 72h pour les critiques",
+                    "Niveau 5 (Optimisé)": "Correctifs appliqués en temps réel"
+                }
+            },
+            "11.B.2-EE": {
+                "Extrait ReCyF": "La sécurité des systèmes d'information de l'entité repose en grande partie sur la sécurité du ou des annuaires gérant les utilisateurs ou les ressources des systèmes d'information. L'ensemble des ressources regroupant un annuaire, les ressources matérielles et logicielles hébergeant cet annuaire ou permettant de prendre le contrôle de cet annuaire (les comptes, les hyperviseurs, les machines d'administration, etc.) est désigné « cœur de confiance » (par exemple : Le Tier0 un annuaire AD DS constitue le cœur de confiance du système d'information). Pour chacun de ses annuaires, l'entité identifie les ressources constituant son cœur de confiance.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'identification",
+                    "Niveau 2 (Géré)": "Identification partielle",
+                    "Niveau 3 (Définis)": "Identification complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Identification revues annuellement",
+                    "Niveau 5 (Optimisé)": "Identification dynamique, synchronisée avec les outils de monitoring"
+                }
+            },
+            "11.B.3-EE": {
+                "Extrait ReCyF": "Les actions d'administration d'un cœur de confiance sont réalisées depuis des comptes d'administration dédiés à l'administration de cœurs de confiance.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de comptes dédiés",
+                    "Niveau 2 (Géré)": "Comptes partagés",
+                    "Niveau 3 (Définis)": "Comptes dédiés pour tous",
+                    "Niveau 4 (Maîtrisé)": "Comptes revus annuellement",
+                    "Niveau 5 (Optimisé)": "Comptes dynamiques (ex: PAM)"
+                }
+            },
+            "11.B.4-EE": {
+                "Extrait ReCyF": "Les actions d'administration d'un cœur de confiance sont réalisées depuis des ressources dédiées exclusivement à l'administration de cœurs de confiance.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de ressources dédiées",
+                    "Niveau 2 (Géré)": "Ressources partagées",
+                    "Niveau 3 (Définis)": "Ressources dédiées pour tous",
+                    "Niveau 4 (Maîtrisé)": "Ressources revues annuellement",
+                    "Niveau 5 (Optimisé)": "Ressources dynamiques (ex: bastion hosts)"
+                }
+            },
+            "11.B.5-EE": {
+                "Extrait ReCyF": "Les connexions externes à un cœur de confiance, à destination des ressources d'administration de cœurs de confiance sont interdites par un dispositif de filtrage sur les ressources d'administration (par exemple : le filtrage peut être réalisé par le pare-feu local de la ressource d'administration du cœur de confiance).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de filtrage",
+                    "Niveau 2 (Géré)": "Filtrage partiel",
+                    "Niveau 3 (Définis)": "Filtrage complet",
+                    "Niveau 4 (Maîtrisé)": "Filtrage revu annuellement",
+                    "Niveau 5 (Optimisé)": "Filtrage dynamique (ex: pare-feu nouvelle génération)"
+                }
+            },
+            "11.B.6-EE": {
+                "Extrait ReCyF": "L'entité effectue annuellement une revue de la configuration des annuaires gérant les utilisateurs ou les ressources de ses systèmes d'information, afin d'identifier tout élément inutile ou anormal. Il est recommandé que cette revue s'appuie sur un outil automatisé.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de revue",
+                    "Niveau 2 (Géré)": "Revue informelle",
+                    "Niveau 3 (Définis)": "Revue documentée",
+                    "Niveau 4 (Maîtrisé)": "Revue automatisée (ex: outils d'audit)",
+                    "Niveau 5 (Optimisé)": "Revue continue, intégrée aux outils SIEM"
+                }
+            },
+            "11.A.7-EE": {
+                "Extrait ReCyF": "Lors de toute modification d'un compte d'administration (ajout, suppression, suspension ou modification des droits associés), l'entité vérifie que les droits d'accès aux ressources et fonctionnalités sont attribués en cohérence avec les besoins d'utilisation du compte. En particulier, afin de limiter la portée des droits individuels, ils sont attribués à chaque compte d'administration en les restreignant autant que possible au périmètre fonctionnel et technique de ce dernier. Pour ceci, il est recommandé d'octroyer les droits d'administration au travers des groupes dont les comptes d'administration sont membres."
+            },
+            "11.B.7-EE": {
+                "Extrait ReCyF": "Lorsqu'elles existent, les recommandations de l'autorité nationale de sécurité des systèmes d'information relatives au cœur de confiance sont mises en œuvre (par exemple : guide de sécurisation, guide de réponses à incidents, mémos techniques, recommandations issues des outils de revues de configurations).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mise en œuvre",
+                    "Niveau 2 (Géré)": "Mise en œuvre partielle",
+                    "Niveau 3 (Définis)": "Mise en œuvre complète",
+                    "Niveau 4 (Maîtrisé)": "Mise en œuvre revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mise en œuvre dynamique (veille ANSSI)"
+                }
+            }
+        }
+    },
+    "Objectif 12": {
+        "id": 12,
+        "titre": "Identification et réaction aux incidents de sécurité",
+        "pilier": "Défense",
+        "rappel": "Les entités mettent en œuvre une organisation, des processus et des outils pour se préparer et réagir aux événements de sécurité affectant leurs activités ou services.",
+        "applicable": {
+            "ei": false,
+            "ee": true
+        },
+        "Mesures": {
+            "Mesures": {
+                "12.1-EE": {
+                    "Extrait ReCyF": "L'entité s'assure de l'élaboration, du maintien à jour et de la mise en œuvre d'une procédure de traitement des incidents de sécurité affectant ses systèmes d'information.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas de procédure",
+                        "Niveau 2 (Géré)": "Procédure informelle",
+                        "Niveau 3 (Définis)": "Procédure documentée",
+                        "Niveau 4 (Maîtrisé)": "Procédure revues annuellement",
+                        "Niveau 5 (Optimisé)": "Procédure automatisée (ex: playbooks SOAR)"
+                    }
+                },
+                "12.2-EE": {
+                    "Extrait ReCyF": "L'entité s'assure de la mise en œuvre des outils permettant de collecter les signalements remontés, en particulier par les sources suivantes : • Les employés de l'entité essentielle ; • Les clients et les usagers des activités et services mis en œuvre par l'entité essentielle ; • Les prestataires et les fournisseurs contractant avec l'entité essentielle.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas d'outils",
+                        "Niveau 2 (Géré)": "Outils partiels (ex: email dédié)",
+                        "Niveau 3 (Définis)": "Outils complets (ex: portail de signalement)",
+                        "Niveau 4 (Maîtrisé)": "Outils revus annuellement",
+                        "Niveau 5 (Optimisé)": "Outils dynamiques (ex: intégration SIEM)"
+                    }
+                },
+                "12.3-EI/EE": {
+                    "Extrait ReCyF": "L'entité s'assure de la définition et de la mise en œuvre des mécanismes permettant d'analyser et de qualifier les événements remontés et d'identifier les incidents potentiels ou avérés.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas de mécanismes",
+                        "Niveau 2 (Géré)": "Mécanismes informels",
+                        "Niveau 3 (Définis)": "Mécanismes documentés",
+                        "Niveau 4 (Maîtrisé)": "Mécanismes revus annuellement",
+                        "Niveau 5 (Optimisé)": "Mécanismes automatisés (ex: corrélation SIEM)"
+                    }
+                },
+                "12.4-EE": {
+                    "Extrait ReCyF": "L'entité s'assure de la définition et de la mise en œuvre des mécanismes organisationnels et techniques permettant de réagir en cas d'incident et de limiter les conséquences sur la fourniture des services. Ces mécanismes sont repris, le cas échéant, dans la définition des plans de continuité et de reprise d'activité.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas de mécanismes",
+                        "Niveau 2 (Géré)": "Mécanismes informels",
+                        "Niveau 3 (Définis)": "Mécanismes documentés",
+                        "Niveau 4 (Maîtrisé)": "Mécanismes revus annuellement",
+                        "Niveau 5 (Optimisé)": "Mécanismes automatisés (ex: playbooks SOAR)"
+                    }
+                },
+                "12.5-EE": {
+                    "Extrait ReCyF": "En complément des dispositions de l'article 17 de la loi XXX, l'entité s'assure, après chaque incident de sécurité, qu'une analyse des causes de l'incident a été réalisée. L'analyse des causes vise à définir et mettre en œuvre les mesures de sécurité permettant de limiter la vraisemblance d'un nouvel incident ou d'en réduire l'impact. L'entité conserve des preuves de cette analyse.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas d'analyse",
+                        "Niveau 2 (Géré)": "Analyse informelle",
+                        "Niveau 3 (Définis)": "Analyse documentée",
+                        "Niveau 4 (Maîtrisé)": "Analyse revues annuellement",
+                        "Niveau 5 (Optimisé)": "Analyse continue, intégrée aux RETEX"
+                    }
+                },
+                "12.6-EI/EE": {
+                    "Extrait ReCyF": "L'entité conserve les relevés techniques dont elle dispose (par exemple : rapport d'analyse, alertes remontées par les outils de protection contre les codes malveillants) et pouvant être utilisés comme éléments de preuve en cas de judiciarisation. Ces relevés techniques sont conservés pour une durée pertinente au regard de la protection des données à caractère personnel et en particulier la finalité du traitement.",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas de conservation",
+                        "Niveau 2 (Géré)": "Conservation partielle",
+                        "Niveau 3 (Définis)": "Conservation complète, durée définie",
+                        "Niveau 4 (Maîtrisé)": "Conservation automatisée (ex: archivage SIEM)",
+                        "Niveau 5 (Optimisé)": "Conservation dynamique (ex: stockage immutable)"
+                    }
+                },
+                "12.7-EE": {
+                    "Extrait ReCyF": "Les relevés techniques relatifs aux analyses des incidents sont protégés d'un incident qui les rendrait inexploitables (par exemple : le stockage hors-ligne pour répondre à un incident de type rançongiciel).",
+                    "Niveaux": {
+                        "Niveau 1 (Initial)": "Pas de protection",
+                        "Niveau 2 (Géré)": "Protection partielle",
+                        "Niveau 3 (Définis)": "Protection complète (ex: sauvegardes hors ligne)",
+                        "Niveau 4 (Maîtrisé)": "Protection revues annuellement",
+                        "Niveau 5 (Optimisé)": "Protection dynamique (ex: air-gapped)"
+                    }
+                }
+            }
+        }
+    },
+    "Objectif 13": {
+        "id": 13,
+        "titre": "Continuité et reprise d’activité",
+        "pilier": "Résilience",
+        "rappel": "Les entités mettent en œuvre des mécanismes de sauvegarde et de restauration opérationnels, testés au moins une fois par an. Les EE définissent et maintiennent à jour des plans de continuité et de reprise d’activité (PCA/PRA).",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "13.1-EI/EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre des procédures de sauvegarde et de restauration de ses systèmes d'information et des données qu'ils manipulent.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de procédures",
+                    "Niveau 2 (Géré)": "Procédures informelles",
+                    "Niveau 3 (Définis)": "Procédures documentées",
+                    "Niveau 4 (Maîtrisé)": "Procédures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Procédures automatisées (ex: outils de backup)"
+                }
+            },
+            "13.2-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure que les processus de sauvegarde et de restauration sont testés au minimum une fois par an. Ces tests visent notamment à vérifier la bonne réalisation des sauvegardes et leur bonne restauration.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de tests",
+                    "Niveau 2 (Géré)": "Tests ponctuels",
+                    "Niveau 3 (Définis)": "Tests annuels documentés",
+                    "Niveau 4 (Maîtrisé)": "Tests semestriels, avec rapports",
+                    "Niveau 5 (Optimisé)": "Tests continus, intégrés aux processus"
+                }
+            },
+            "13.3-EI/EE": {
+                "Extrait ReCyF": "Les sauvegardes sont protégées d'un incident les rendant inexploitables (par exemple : le stockage hors-ligne pour répondre à un incident de type rançongiciel).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de protection",
+                    "Niveau 2 (Géré)": "Protection partielle",
+                    "Niveau 3 (Définis)": "Protection complète (ex: sauvegardes hors ligne)",
+                    "Niveau 4 (Maîtrisé)": "Protection revues annuellement",
+                    "Niveau 5 (Optimisé)": "Protection dynamique (ex: air-gapped + chiffrement)"
+                }
+            },
+            "13.4-EE": {
+                "Extrait ReCyF": "L'entité, pour chacun de ses activités et services, définit et documente la durée maximale d'interruption admissible (DMIA) et le point de rétablissement des données (PRD).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de définition",
+                    "Niveau 2 (Géré)": "Définition partielle",
+                    "Niveau 3 (Définis)": "Définition complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Définition revues annuellement",
+                    "Niveau 5 (Optimisé)": "Définition dynamique, adaptée aux risques"
+                }
+            },
+            "13.5-EI/EE": {
+                "Extrait ReCyF": "Les mécanismes de sauvegarde sont dimensionnés pour répondre aux besoins de disponibilité associés aux différents services et aux différentes activités fournis par l'entité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de dimensionnement",
+                    "Niveau 2 (Géré)": "Dimensionnement partiel",
+                    "Niveau 3 (Définis)": "Dimensionnement complet",
+                    "Niveau 4 (Maîtrisé)": "Dimensionnement revu annuellement",
+                    "Niveau 5 (Optimisé)": "Dimensionnement dynamique (ex: scaling automatique)"
+                }
+            },
+            "13.6-EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre un plan de continuité d'activité (PCA) et un plan de reprise d'activité (PRA) adaptés aux scénarios de crises d'origine cyber et cohérents avec la durée maximale d'interruption admissible et le point de rétablissement des données.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de PCA/PRA",
+                    "Niveau 2 (Géré)": "PCA/PRA partiels",
+                    "Niveau 3 (Définis)": "PCA/PRA complets, documentés",
+                    "Niveau 4 (Maîtrisé)": "PCA/PRA revus annuellement",
+                    "Niveau 5 (Optimisé)": "PCA/PRA dynamiques, testés régulièrement"
+                }
+            },
+            "13.7-EE": {
+                "Extrait ReCyF": "L'identification de ces mesures de continuité s'appuie notamment : • Sur la cartographie de l'écosystème ; • Sur la procédure de gestion des incidents pour détecter et réagir au plus tôt aux incidents ; • Sur la procédure de gestion des crises d'origine cyber pour permettre la reprise au plus tôt des services.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'appui",
+                    "Niveau 2 (Géré)": "Appui partiel",
+                    "Niveau 3 (Définis)": "Appui complet",
+                    "Niveau 4 (Maîtrisé)": "Appui revu annuellement",
+                    "Niveau 5 (Optimisé)": "Appui dynamique, intégrée aux processus"
+                }
+            }
+        }
+    },
+    "Objectif 14": {
+        "id": 14,
+        "titre": "Réaction aux crises d’origine cyber",
+        "pilier": "Résilience",
+        "rappel": "Les entités mettent en œuvre une organisation, des processus et des outils pour se préparer et réagir aux crises d’origine cyber. Les EE mettent en œuvre des retours d’expérience (RETEX) pour identifier les axes d’amélioration.",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "14.1-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure de la définition, du maintien à jour et de la mise en œuvre d'une procédure de gestion de crises en cas d'incident de sécurité sur ses systèmes d'information nécessitant le passage en mode crise (par exemple : pour les incidents importants au sens de l'article 17 du PJL).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de procédure",
+                    "Niveau 2 (Géré)": "Procédure informelle",
+                    "Niveau 3 (Définis)": "Procédure documentée",
+                    "Niveau 4 (Maîtrisé)": "Procédure revues annuellement",
+                    "Niveau 5 (Optimisé)": "Procédure automatisée (ex: playbooks de crise)"
+                }
+            },
+            "14.2-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure du maintien à jour d'une liste imprimée des personnes mobilisables dans la gestion de la crise sur les sujets relatifs à la sécurité numérique ainsi que leurs coordonnées.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de liste",
+                    "Niveau 2 (Géré)": "Liste partielle",
+                    "Niveau 3 (Définis)": "Liste complète, imprimée",
+                    "Niveau 4 (Maîtrisé)": "Liste revues semestriellement",
+                    "Niveau 5 (Optimisé)": "Liste dynamique, synchronisée avec les outils RH"
+                }
+            },
+            "14.3-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure que la liste des personnes mobilisables prévue au 14.2-EI/EE est accessible dans un format adapté à la nature de la crise (par exemple, la liste doit être accessible au format papier si les systèmes d'information ne sont plus disponibles, et elle doit être accessible au format numérique si la version papier n'est pas accessible).",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'accessibilité",
+                    "Niveau 2 (Géré)": "Accessibilité partielle",
+                    "Niveau 3 (Définis)": "Accessibilité complète",
+                    "Niveau 4 (Maîtrisé)": "Accessibilité revues annuellement",
+                    "Niveau 5 (Optimisé)": "Accessibilité dynamique (ex: multi-canal)"
+                }
+            },
+            "14.4-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure du maintien à jour d'un annuaire des parties prenantes externes à l'entité pertinente dans la gestion de la crise en s'appuyant sur la cartographie de l'écosystème.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'annuaire",
+                    "Niveau 2 (Géré)": "Annuaire partiel",
+                    "Niveau 3 (Définis)": "Annuaire complet",
+                    "Niveau 4 (Maîtrisé)": "Annuaire revu annuellement",
+                    "Niveau 5 (Optimisé)": "Annuaire dynamique, synchronisé avec les contrats"
+                }
+            },
+            "14.5-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la mise en œuvre de retour d'expérience (RETEX) permettant d'identifier les axes d'amélioration et les mesures associées à mettre en œuvre suite à un entraînement, un exercice ou une crise réelle.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de RETEX",
+                    "Niveau 2 (Géré)": "RETEX informel",
+                    "Niveau 3 (Définis)": "RETEX documenté",
+                    "Niveau 4 (Maîtrisé)": "RETEX revu annuellement",
+                    "Niveau 5 (Optimisé)": "RETEX continu, intégrée aux processus"
+                }
+            },
+            "14.6-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la définition, du maintien à jour et de la mise en œuvre des critères permettant d'activer et de désactiver le dispositif de gestion de crise prenant en compte les menaces cyber.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de critères",
+                    "Niveau 2 (Géré)": "Critères informels",
+                    "Niveau 3 (Définis)": "Critères documentés",
+                    "Niveau 4 (Maîtrisé)": "Critères revus annuellement",
+                    "Niveau 5 (Optimisé)": "Critères dynamiques, adaptés aux menaces"
+                }
+            },
+            "14.7-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la définition, du maintien à jour et de la mise en œuvre des procédures et des mécanismes de gestion de la crise adaptés à la menace cyber en s'appuyant sur les recommandations de l'autorité nationale de sécurité des systèmes d'information.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de procédures",
+                    "Niveau 2 (Géré)": "Procédures partielles",
+                    "Niveau 3 (Définis)": "Procédures complètes",
+                    "Niveau 4 (Maîtrisé)": "Procédures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Procédures dynamiques, alignées avec la veille ANSSI"
+                }
+            },
+            "14.10-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la disponibilité de moyens de communication de secours, si possible, sécurisés en temps de crise lorsque les moyens de communication habituels sont indisponibles.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de moyens",
+                    "Niveau 2 (Géré)": "Moyens partiels",
+                    "Niveau 3 (Définis)": "Moyens complets (ex: radio, téléphone satellite)",
+                    "Niveau 4 (Maîtrisé)": "Moyens revus annuellement",
+                    "Niveau 5 (Optimisé)": "Moyens dynamiques, testés régulièrement"
+                }
+            },
+            "14.8-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la définition et de la mise en œuvre des mesures pour isoler, protéger et, le cas échéant, reconstruire les systèmes d'information concernés, activables en cas d'incident de sécurité. Ces mesures prennent en compte les infrastructures, applicatifs et services numériques externalisés à des prestataires et sont mises en place en cohérence avec les plans de continuité et de reprise d'activité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de mesures",
+                    "Niveau 2 (Géré)": "Mesures partielles",
+                    "Niveau 3 (Définis)": "Mesures complètes",
+                    "Niveau 4 (Maîtrisé)": "Mesures revues annuellement",
+                    "Niveau 5 (Optimisé)": "Mesures dynamiques, intégrées aux PCA/PRA"
+                }
+            },
+            "14.9-EE": {
+                "Extrait ReCyF": "L'entité s'assure de la définition d'une stratégie de communication adaptée aux crises d'origine cyber, incluant des scénarios de crise, le schéma d'organisation de la communication de crise, les outils de pilotage de la communication et des éléments de langage sur des sujets sensibles ou de crise. Cette stratégie prend en compte les scénarios de menaces cyber identifiés.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de stratégie",
+                    "Niveau 2 (Géré)": "Stratégie partielle",
+                    "Niveau 3 (Définis)": "Stratégie complète",
+                    "Niveau 4 (Maîtrisé)": "Stratégie revues annuellement",
+                    "Niveau 5 (Optimisé)": "Stratégie dynamique, testée régulièrement"
+                }
+            }
+        }
+    },
+    "Objectif 15": {
+        "id": 15,
+        "titre": "Exercices, tests et entraînements",
+        "pilier": "Résilience",
+        "rappel": "Les entités réalisent des exercices, tests et entraînements à intervalles réguliers pour vérifier leur capacité à faire face aux incidents et crises d’origine cyber.",
+        "applicable": {
+            "ei": true,
+            "ee": true
+        },
+        "Mesures": {
+            "15.1-EI/EE": {
+                "Extrait ReCyF": "L'entité s'assure de la sensibilisation et de la mise en œuvre d'au moins un exercice sur table à une fréquence qu'elle définit pour les personnes mobilisables dans le dispositif de gestion des crises d'origine cyber.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas d'exercices",
+                    "Niveau 2 (Géré)": "Exercices ponctuels",
+                    "Niveau 3 (Définis)": "Exercices annuels documentés",
+                    "Niveau 4 (Maîtrisé)": "Exercices semestriels, avec rapports",
+                    "Niveau 5 (Optimisé)": "Exercices continus, intégrés aux processus"
+                }
+            },
+            "15.2-EE": {
+                "Extrait ReCyF": "L'entité définit et met en œuvre une stratégie d'entraînement qui comporte, au minimum, les éléments suivants : - Une liste des acteurs amenés à participer aux différents dispositifs d'entraînement et d'exercice ; - Une liste d'exercices permettant d'entraîner ou de tester les capacités opérationnelles ; - Les objectifs visés par la stratégie ; - Les moyens de vérification ou d'évaluation d'atteinte de ces objectifs ; - Les scénarios de risques ou d'attaques à tester en priorité ; - La comitologie de suivi de la stratégie. Cette stratégie peut être mutualisée avec d'autres livrables.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de stratégie",
+                    "Niveau 2 (Géré)": "Stratégie partielle",
+                    "Niveau 3 (Définis)": "Stratégie complète, documentée",
+                    "Niveau 4 (Maîtrisé)": "Stratégie revues annuellement",
+                    "Niveau 5 (Optimisé)": "Stratégie dynamique, adaptée aux menaces"
+                }
+            },
+            "15.3-EE": {
+                "Extrait ReCyF": "Cette stratégie d'entraînement vise à tester les dispositifs mis en œuvre par l'entité en matière : - De gestion des alertes relatives aux incidents, aux vulnérabilités et menaces ; - De continuité et de reprise d'activité ; - De gestion des crises d'origine cyber.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de tests",
+                    "Niveau 2 (Géré)": "Tests ponctuels",
+                    "Niveau 3 (Définis)": "Tests annuels documentés",
+                    "Niveau 4 (Maîtrisé)": "Tests semestriels, avec rapports",
+                    "Niveau 5 (Optimisé)": "Tests continus, intégrés aux processus"
+                }
+            },
+            "15.4-EE": {
+                "Extrait ReCyF": "L'entité décline cette stratégie dans la définition et la mise en œuvre d'un programme triennal d'entraînement et d'exercice. Ce programme précise notamment la fréquence de ces entraînements et exercices ainsi que leur nature et que leurs objectifs. Ce programme triennal doit permettre de tester les dispositifs de gestion des incidents, de gestion des crises d'origine cyber et de coopération avec l'écosystème et, le cas échéant, le volet cyber des plans de continuité et de reprise d'activité.",
+                "Niveaux": {
+                    "Niveau 1 (Initial)": "Pas de programme",
+                    "Niveau 2 (Géré)": "Programme partiel",
+                    "Niveau 3 (Définis)": "Programme complet, documenté",
+                    "Niveau 4 (Maîtrisé)": "Programme revu annuellement",
+                    "Niveau 5 (Optimisé)": "Programme dynamique, adapté aux menaces"
+                }
+            }
+        }
+    }
+}
